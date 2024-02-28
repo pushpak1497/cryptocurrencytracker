@@ -1,0 +1,43 @@
+/* Write your CSS code here */
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bg-container {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  color: #00e7ff;
+  text-align: center;
+}
+.usd {
+  margin: 20px;
+}
+.euro {
+  margin: 20px;
+}
+.type-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.currencies-container {
+  border: 2px solid #00e7ff;
+  width: 700px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.table-heading-container {
+  background-color: #092e33;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
